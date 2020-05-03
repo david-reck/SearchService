@@ -1,0 +1,16 @@
+D:\PelitasPOC\PatientSearchService\PatientSearchService.Data\bin\Debug\netcoreapp3.1\PatientSearchService.Data.deps.json
+D:\PelitasPOC\PatientSearchService\PatientSearchService.Data\bin\Debug\netcoreapp3.1\PatientSearchService.Data.dll
+D:\PelitasPOC\PatientSearchService\PatientSearchService.Data\bin\Debug\netcoreapp3.1\PatientSearchService.Data.pdb
+D:\PelitasPOC\PatientSearchService\PatientSearchService.Data\obj\Debug\netcoreapp3.1\PatientSearchService.Data.AssemblyInfoInputs.cache
+D:\PelitasPOC\PatientSearchService\PatientSearchService.Data\obj\Debug\netcoreapp3.1\PatientSearchService.Data.AssemblyInfo.cs
+D:\PelitasPOC\PatientSearchService\PatientSearchService.Data\obj\Debug\netcoreapp3.1\PatientSearchService.Data.dll
+D:\PelitasPOC\PatientSearchService\PatientSearchService.Data\obj\Debug\netcoreapp3.1\PatientSearchService.Data.pdb
+D:\PelitasPOC\PatientSearchService\PatientSearchService.Data\obj\Debug\netcoreapp3.1\PatientSearchService.Data.csprojAssemblyReference.cache
+D:\PelitasPOC\PatientSearchService\PatientSearchService.Data\obj\Debug\netcoreapp3.1\PatientSearchService.Data.csproj.CoreCompileInputs.cache
+C:\Users\dreck\Desktop\PatientSearchService\PatientSearchService.Data\bin\Debug\netcoreapp3.1\PatientSearchService.Data.deps.json
+C:\Users\dreck\Desktop\PatientSearchService\PatientSearchService.Data\bin\Debug\netcoreapp3.1\PatientSearchService.Data.dll
+C:\Users\dreck\Desktop\PatientSearchService\PatientSearchService.Data\bin\Debug\netcoreapp3.1\PatientSearchService.Data.pdb
+C:\Users\dreck\Desktop\PatientSearchService\PatientSearchService.Data\obj\Debug\netcoreapp3.1\PatientSearchService.Data.AssemblyInfoInputs.cache
+C:\Users\dreck\Desktop\PatientSearchService\PatientSearchService.Data\obj\Debug\netcoreapp3.1\PatientSearchService.Data.AssemblyInfo.cs
+C:\Users\dreck\Desktop\PatientSearchService\PatientSearchService.Data\obj\Debug\netcoreapp3.1\PatientSearchService.Data.dll
+C:\Users\dreck\Desktop\PatientSearchService\PatientSearchService.Data\obj\Debug\netcoreapp3.1\PatientSearchService.Data.pdb

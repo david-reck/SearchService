@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1h8caEy5BSRrrqmQZm9HGBS1PUwVd0FYJXB6jX7hM3Bq7Ke4LCDtyJKvBPQ7GA5XFzmqujgV65pPGXq1WwfHdw==",
+  "success": true,
+  "projectFilePath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skkar\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

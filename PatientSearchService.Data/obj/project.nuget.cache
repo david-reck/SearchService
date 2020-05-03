@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zI4WVTm/eRvY669pS9gN5u95zG+xi1FBdeWyvgV9d+Va/R1j4/1LdeHcnSaj2/FMym0X5nAyVOZSTFFc7Y8MXw==",
+  "success": true,
+  "projectFilePath": "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skkar\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
