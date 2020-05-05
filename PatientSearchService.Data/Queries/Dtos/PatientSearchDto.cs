@@ -1,42 +1,34 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace PatientSearchService.Data
 {
-    class PatientSearchDto
+    public class PatientSearchDto
     {
+        [JsonProperty("AccountNumber")]
         public string AccountNumber { get; set; }
 
-        public DateTimeOffset AdmitStartDate { get; set; }
-        public DateTimeOffset AdmitEndDate { get; set; }
-
-        public string PayerCode { get; set; }
-
-        public string SSN { get; set; }
-
+        [JsonProperty("FinancialClass")]
         public string FinancialClass { get; set; }
 
+        [JsonProperty("PatientType")]
         public string PatientType { get; set; }
 
+        [JsonProperty("MRN")]
         public string MRN { get; set; }
 
+        [JsonProperty("FirstName")]
         public string FirstName { get; set; }
 
+        [JsonProperty("LastName")]
         public string LastName { get; set; }
 
-        public string AdmitType { get; set; }
+        [JsonProperty("DOS")]
+        public string DOS { get; set; }
 
-        public string Status { get; set; }
-
-        public string HAR { get; set; }
-
-        public string ClientID { get; set; }
-
-        public int PatientVisitID { get; set; }
-
-        public string Registrar { get; set; }
-
-        public int DOS { get; set; }
+        [JsonProperty("Gender")]
+        public string Gender { get; set; }
     }
 }

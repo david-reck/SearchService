@@ -1,32 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dreck\\Desktop\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj": {}
+    "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dreck\\Desktop\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj": {
+    "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj",
+        "projectUniqueName": "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj",
         "projectName": "PatientSearchService.Data",
-        "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj",
-        "packagesPath": "C:\\Users\\dreck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\PatientSearchService.Data\\obj\\",
+        "projectPath": "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj",
+        "packagesPath": "C:\\Users\\skkar\\.nuget\\packages\\",
+        "outputPath": "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dreck\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+          "C:\\Users\\skkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,6 +41,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -63,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

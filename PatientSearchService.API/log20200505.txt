@@ -1,0 +1,113 @@
+2020-05-05 00:02:05.759 +05:30 [INF] Configuring web host (PatientSearchService.API)...
+2020-05-05 00:02:06.691 +05:30 [INF] Starting web host (PatientSearchService.API)...
+2020-05-05 00:02:10.869 +05:30 [WRN] The messaging entity $Default Could not be found.
+2020-05-05 00:02:11.285 +05:30 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-05 00:02:11.288 +05:30 [INF] Subscribing to event RegistrationReceived with PatientsDetailsMessageReceivedEventHandler
+2020-05-05 00:02:11.327 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-05 00:02:28.417 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-05 00:02:51.482 +05:30 [ERR] Handler was not found for request of type MediatR.IRequestHandler`2[PatientSearchService.Data.SearchPatientDetailsQuery,PatientSearchService.Data.SearchPatientDetailsResult]. Register your handlers with the container. See the samples in GitHub for examples.
+System.InvalidOperationException: Handler was not found for request of type MediatR.IRequestHandler`2[PatientSearchService.Data.SearchPatientDetailsQuery,PatientSearchService.Data.SearchPatientDetailsResult]. Register your handlers with the container. See the samples in GitHub for examples.
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, CancellationToken cancellationToken, ServiceFactory serviceFactory)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at PatientSearchService.API.PatientSearchController.SearchAsync(QueryStringConstructor q) in D:\PelitasPOC\PatientSearchService\PatientSearchService.API\Controllers\PatientSearchController.cs:line 41
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-05-05 00:11:20.010 +05:30 [INF] Configuring web host (PatientSearchService.API)...
+2020-05-05 00:11:20.672 +05:30 [INF] Starting web host (PatientSearchService.API)...
+2020-05-05 00:11:24.645 +05:30 [WRN] The messaging entity $Default Could not be found.
+2020-05-05 00:11:25.048 +05:30 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-05 00:11:25.049 +05:30 [INF] Subscribing to event RegistrationReceived with PatientsDetailsMessageReceivedEventHandler
+2020-05-05 00:11:25.077 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-05 00:11:30.602 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-05 00:11:51.355 +05:30 [INF] -----Sending command: RegistrationCommand
+2020-05-05 00:11:53.658 +05:30 [ERR] Handler was not found for request of type MediatR.IRequestHandler`2[PatientSearchService.Data.SearchPatientDetailsQuery,PatientSearchService.Data.SearchPatientDetailsResult]. Register your handlers with the container. See the samples in GitHub for examples.
+System.InvalidOperationException: Handler was not found for request of type MediatR.IRequestHandler`2[PatientSearchService.Data.SearchPatientDetailsQuery,PatientSearchService.Data.SearchPatientDetailsResult]. Register your handlers with the container. See the samples in GitHub for examples.
+   at MediatR.Internal.RequestHandlerBase.GetHandler[THandler](ServiceFactory factory)
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at MediatR.Internal.RequestHandlerWrapperImpl`2.Handle(IRequest`1 request, CancellationToken cancellationToken, ServiceFactory serviceFactory)
+   at MediatR.Mediator.Send[TResponse](IRequest`1 request, CancellationToken cancellationToken)
+   at PatientSearchService.API.PatientSearchController.SearchAsync(QueryStringConstructor q) in D:\PelitasPOC\PatientSearchService\PatientSearchService.API\Controllers\PatientSearchController.cs:line 43
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-05-05 00:15:36.289 +05:30 [INF] Configuring web host (PatientSearchService.API)...
+2020-05-05 00:15:46.703 +05:30 [INF] Starting web host (PatientSearchService.API)...
+2020-05-05 00:15:50.418 +05:30 [WRN] The messaging entity $Default Could not be found.
+2020-05-05 00:15:50.749 +05:30 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-05 00:15:50.751 +05:30 [INF] Subscribing to event RegistrationReceived with PatientsDetailsMessageReceivedEventHandler
+2020-05-05 00:15:50.777 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
+2020-05-05 00:15:56.124 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-05 00:16:04.366 +05:30 [INF] -----Sending command: RegistrationCommand
+2020-05-05 00:18:49.736 +05:30 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/SearchService","ClientId":"MessageReceiver3registration/Subscriptions/SearchService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-05 00:18:49.826 +05:30 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/SearchService","ClientId":"MessageReceiver3registration/Subscriptions/SearchService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-05 00:18:49.841 +05:30 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/SearchService","ClientId":"MessageReceiver3registration/Subscriptions/SearchService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-05 00:18:49.855 +05:30 [ERR] ERROR handling message: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'. - Context: {"Action":"Receive","Endpoint":"ipasservicebus.servicebus.windows.net","EntityPath":"registration/Subscriptions/SearchService","ClientId":"MessageReceiver3registration/Subscriptions/SearchService","$type":"ExceptionReceivedContext"}
+Microsoft.Azure.ServiceBus.ServiceBusCommunicationException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'.
+ ---> Microsoft.Azure.ServiceBus.ServiceBusException: The connection was inactive for more than the allowed 60000 milliseconds and is closed by container 'cb182c23-467c-490d-88cc-9ac5d521923e'.
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   --- End of inner exception stack trace ---
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.OnReceiveAsync(Int32 maxMessageCount, TimeSpan serverWaitTime)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.<>c__DisplayClass64_0.<<ReceiveAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.RetryPolicy.RunOperation(Func`1 operation, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(Int32 maxMessageCount, TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.Core.MessageReceiver.ReceiveAsync(TimeSpan operationTimeout)
+   at Microsoft.Azure.ServiceBus.MessageReceivePump.<MessagePumpTaskAsync>b__11_0()
+2020-05-05 00:19:41.030 +05:30 [INF] -----Sending command: RegistrationCommand
+2020-05-05 00:22:58.666 +05:30 [INF] -----Sending command: RunRegistrationRulesCommand
+2020-05-05 00:24:30.945 +05:30 [INF] -----Sending command: RunRegistrationRulesCommand
+2020-05-05 00:24:56.584 +05:30 [INF] -----Sending command: RegistrationCommand

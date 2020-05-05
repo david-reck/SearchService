@@ -1,39 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj": {}
+    "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj": {
+    "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj",
+        "projectUniqueName": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj",
         "projectName": "iPas.Infrastructure.EventBusServiceBus",
-        "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj",
-        "packagesPath": "C:\\Users\\dreck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\obj\\",
+        "projectPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj",
+        "packagesPath": "C:\\Users\\skkar\\.nuget\\packages\\",
+        "outputPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dreck\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+          "C:\\Users\\skkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
-                "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj"
+              "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
+                "projectPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj"
               }
             }
           }
@@ -79,33 +74,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
+    "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj",
+        "projectUniqueName": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj",
         "projectName": "iPas.Infrastructure.EventBus",
-        "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj",
-        "packagesPath": "C:\\Users\\dreck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBus\\obj\\",
+        "projectPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj",
+        "packagesPath": "C:\\Users\\skkar\\.nuget\\packages\\",
+        "outputPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBus\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dreck\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+          "C:\\Users\\skkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -142,40 +132,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj": {
+    "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj",
+        "projectUniqueName": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj",
         "projectName": "iPas.Infrastructure.IntegrationEventLogEF",
-        "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj",
-        "packagesPath": "C:\\Users\\dreck\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\obj\\",
+        "projectPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj",
+        "packagesPath": "C:\\Users\\skkar\\.nuget\\packages\\",
+        "outputPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dreck\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+          "C:\\Users\\skkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj": {
-                "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj"
+              "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj": {
+                "projectPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj"
               }
             }
           }
@@ -227,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

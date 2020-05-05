@@ -728,7 +728,7 @@ namespace PatientSearchService.API
         public Pid18 Pid18 { get; set; }
 
         [JsonProperty("PID.19")]
-        public object Pid19 { get; set; }
+        public Pid19 Pid19 { get; set; }
 
         [JsonProperty("PID.20")]
         public object Pid20 { get; set; }
@@ -858,6 +858,11 @@ namespace PatientSearchService.API
         public string Pid181 { get; set; }
     }
 
+    public partial class Pid19
+    {
+        [JsonProperty("PID.19.1")]
+        public string Pid191 { get; set; }
+    }
     public partial class Pid2
     {
         [JsonProperty("PID.2.1")]
@@ -1320,7 +1325,7 @@ namespace PatientSearchService.API
         public object Pv223 { get; set; }
 
         [JsonProperty("PV2.24")]
-        public object Pv224 { get; set; }
+        public Pv224 Pv224 { get; set; }
 
         [JsonProperty("PV2.25")]
         public object Pv225 { get; set; }
@@ -1351,6 +1356,12 @@ namespace PatientSearchService.API
     {
         [JsonProperty("PV2.22.1")]
         public string Pv2221 { get; set; }
+    }
+
+    public partial class Pv224
+    {
+        [JsonProperty("PV2.24.1")]
+        public string Pv2241 { get; set; }
     }
 
     public partial class Pv232

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zI4WVTm/eRvY669pS9gN5u95zG+xi1FBdeWyvgV9d+Va/R1j4/1LdeHcnSaj2/FMym0X5nAyVOZSTFFc7Y8MXw==",
+  "dgSpecHash": "D9H+EBxRJt91mUDXzXXsKn6jjKbOILPwgQjCV0NE6DUEUlxiNEm6hxxm5dUXrO+dqeYwW4m9HNix8aMvC99R9Q==",
   "success": true,
   "projectFilePath": "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\skkar\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+    "C:\\Users\\skkar\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\skkar\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

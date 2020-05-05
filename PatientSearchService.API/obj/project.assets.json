@@ -4080,7 +4080,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "MediatR": "8.0.1"
+          "MediatR": "8.0.1",
+          "Newtonsoft.Json": "12.0.3"
         },
         "compile": {
           "bin/placeholder/PatientSearchService.Data.dll": {}
@@ -11887,6 +11888,7 @@
       "Autofac.Extensions.DependencyInjection >= 6.0.0",
       "Grpc.AspNetCore >= 2.28.0",
       "Grpc.AspNetCore.Server >= 2.28.0",
+      "Grpc.Net.Client >= 2.28.0",
       "MediatR >= 8.0.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 8.0.0",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
@@ -11913,48 +11915,42 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dreck\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\skkar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\PatientSearchService.API\\PatientSearchService.API.csproj",
+      "projectUniqueName": "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.API\\PatientSearchService.API.csproj",
       "projectName": "PatientSearchService.API",
-      "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\PatientSearchService.API\\PatientSearchService.API.csproj",
-      "packagesPath": "C:\\Users\\dreck\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\PatientSearchService.API\\obj\\",
+      "projectPath": "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.API\\PatientSearchService.API.csproj",
+      "packagesPath": "C:\\Users\\skkar\\.nuget\\packages\\",
+      "outputPath": "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\dreck\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        "C:\\Users\\skkar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj": {
-              "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj"
+            "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj": {
+              "projectPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj"
             },
-            "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
-              "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj"
+            "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
+              "projectPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj"
             },
-            "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj": {
-              "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj"
+            "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj": {
+              "projectPath": "D:\\PelitasPOC\\PatientSearchService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj"
             },
-            "C:\\Users\\dreck\\Desktop\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj": {
-              "projectPath": "C:\\Users\\dreck\\Desktop\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj"
+            "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj": {
+              "projectPath": "D:\\PelitasPOC\\PatientSearchService\\PatientSearchService.Data\\PatientSearchService.Data.csproj"
             }
           }
         }
@@ -11981,6 +11977,10 @@
             "version": "[2.28.0, )"
           },
           "Grpc.AspNetCore.Server": {
+            "target": "Package",
+            "version": "[2.28.0, )"
+          },
+          "Grpc.Net.Client": {
             "target": "Package",
             "version": "[2.28.0, )"
           },
@@ -12079,7 +12079,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

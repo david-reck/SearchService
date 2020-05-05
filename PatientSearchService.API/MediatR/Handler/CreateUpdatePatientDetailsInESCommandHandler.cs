@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,15 +10,24 @@ namespace PatientSearchService.API
 {
     public class CreateUpdatePatientDetailsInESCommandHandler : INotificationHandler<CreateUpdatePatientDetailsInESCommand>
     {
-        protected readonly IPatientSearchRepository _patientsearchrepository;
+        private readonly IPatientSearchRepository _elasticSearchService;
+        private readonly ILoggerFactory _logger;
 
-        public CreateUpdatePatientDetailsInESCommandHandler(IPatientSearchRepository Patientsearchrepository)
+        public CreateUpdatePatientDetailsInESCommandHandler(IPatientSearchRepository Patientsearchrepository, ILoggerFactory logger)
         {
-            this._patientsearchrepository = Patientsearchrepository;
+            _elasticSearchService = Patientsearchrepository ?? throw new ArgumentNullException(nameof(Patientsearchrepository));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
-        public Task Handle(CreateUpdatePatientDetailsInESCommand notification, CancellationToken cancellationToken)
+        public async Task Handle(CreateUpdatePatientDetailsInESCommand notification, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var patientDetails = new PatientDetailDto { AccountNumber = notification.AccountNumber, AdmitDate = notification.AdmitDate, 
+                AdmitType = notification.AdmitType, ClientID = notification.ClientID, 
+                DOS = notification.DOS, FinancialClass = notification.FinancialClass, 
+                FirstName = notification.FirstName, HAR = notification.HAR, LastName = notification.LastName, 
+                MRN = notification.MRN, PatientType = notification.PatientType, PatientVisitID = notification.PatientVisitID, 
+                PayerCode = notification.PayerCode, Registrar = notification.Registrar, SSN = notification.SSN, 
+                Status = notification.Status, Gender = notification.Gender };
+            await _elasticSearchService.AddAndSaveToES(patientDetails);
         }
     }
 }

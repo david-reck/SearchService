@@ -1,4 +1,5 @@
 ﻿using Nest;
+using PatientSearchService.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,7 +23,31 @@ namespace PatientSearchService.API
 
         public async Task AddAndSaveToES(PatientDetailDto PatientDetail)
         {
-           await ElasticSearchClient.GetClient().IndexDocumentAsync(PatientDetail);
+            try
+            {
+                if (IndexExist())
+                {
+                   var resultresponse = await ElasticSearchClient.GetClient().IndexDocumentAsync(PatientDetail);
+                    Console.WriteLine(resultresponse.IsValid.ToString());
+                }
+                else
+                {
+                    var result = await CreateIndexIfNotExist();
+                    if (result)
+                    {
+                      var  resultresponse = await ElasticSearchClient.GetClient().IndexDocumentAsync(PatientDetail);
+                        Console.WriteLine(resultresponse.IsValid.ToString());
+                    }
+
+                }
+
+            }catch(Exception ex)
+            {
+                Console.WriteLine("Error while adding document to elastic search");
+                Console.WriteLine(ex.Message.ToString());
+            }
+           
+
         }
 
         public async Task<bool> CreateIndexIfNotExist()
@@ -64,7 +89,10 @@ namespace PatientSearchService.API
                         .Query(q =>
                             q.MultiMatch(mm =>
                                 mm.Query(queryText)
-                                .Fields(f => f.Fields(p => p.ClientID, p => p.AccountNumber))
+                                .Fields(f => f.Fields(p => p.ClientID, p => p.AccountNumber,
+                                    p => p.AdmitType, p => p.FinancialClass, p => p.FirstName, p => p.HAR,
+                                    p => p.LastName, p => p.MRN, p => p.PatientType,
+                                    p => p.PayerCode, p => p.SSN))
                                 .Type(TextQueryType.BestFields)
                                 .Fuzziness(Fuzziness.Auto)
                             )
@@ -72,6 +100,5 @@ namespace PatientSearchService.API
 
             return result.Documents.ToList();
         }
-
     }
 }

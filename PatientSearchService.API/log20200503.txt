@@ -250,3 +250,9 @@ System.InvalidOperationException: Unable to resolve service for type 'PatientSea
 2020-05-03 03:24:20.133 +05:30 [INF] Subscribing to event PatientsDetailsMessageReceivedEvent with PatientsDetailsMessageReceivedEventHandler
 2020-05-03 03:24:20.158 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
 2020-05-03 03:24:28.235 +05:30 [WRN] Failed to determine the https port for redirect.
+2020-05-03 22:09:05.437 +05:30 [INF] Configuring web host (PatientSearchService.API)...
+2020-05-03 22:09:06.242 +05:30 [INF] Starting web host (PatientSearchService.API)...
+2020-05-03 22:09:10.360 +05:30 [WRN] The messaging entity $Default Could not be found.
+2020-05-03 22:09:10.688 +05:30 [WRN] The messaging entity RegistrationReceived already exists.
+2020-05-03 22:09:10.690 +05:30 [INF] Subscribing to event RegistrationReceived with PatientsDetailsMessageReceivedEventHandler
+2020-05-03 22:09:10.716 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.

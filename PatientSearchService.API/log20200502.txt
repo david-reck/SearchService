@@ -3962,9 +3962,3 @@ System.InvalidOperationException: It is not possible for an entity that requires
 2020-05-02 23:34:52.562 +05:30 [WRN] The messaging entity PatientsDetailsMessageReceivedEvent already exists.
 2020-05-02 23:34:52.564 +05:30 [INF] Subscribing to event PatientsDetailsMessageReceivedEvent with PatientsDetailsMessageReceivedEventHandler
 2020-05-02 23:34:52.592 +05:30 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.
-2020-05-02 21:51:01.524 -05:00 [INF] Configuring web host (PatientSearchService.API)...
-2020-05-02 21:51:49.812 -05:00 [INF] Configuring web host (PatientSearchService.API)...
-2020-05-02 21:51:52.100 -05:00 [INF] Starting web host (PatientSearchService.API)...
-2020-05-02 21:52:06.595 -05:00 [WRN] The messaging entity $Default Could not be found.
-2020-05-02 21:52:06.937 -05:00 [INF] Subscribing to event RegistrationReceived with PatientsDetailsMessageReceivedEventHandler
-2020-05-02 21:52:06.970 -05:00 [WRN] Overriding address(es) 'http://localhost:5000'. Binding to endpoints defined in UseKestrel() instead.

@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientSearchService.API", "PatientSearchService.API\PatientSearchService.API.csproj", "{4B28274F-D4A2-4925-9DE1-04F297969BCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientSearchService.API", "PatientSearchService.API\PatientSearchService.API.csproj", "{4B28274F-D4A2-4925-9DE1-04F297969BCF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A379C64C-1B7F-47A4-A23E-E1DD69D359D6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventBus", "EventBus", "{25AE076E-0120-4829-9790-EF896AB7F653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPas.Infrastructure.EventBus", "iPas.Infrastructure.EventBus\iPas.Infrastructure.EventBus.csproj", "{9A7D445E-F25C-4EAC-8EC2-28F9E5D558C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPas.Infrastructure.EventBus", "iPas.Infrastructure.EventBus\iPas.Infrastructure.EventBus.csproj", "{9A7D445E-F25C-4EAC-8EC2-28F9E5D558C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPas.Infrastructure.EventBusServiceBus", "iPas.Infrastructure.EventBusServiceBus\iPas.Infrastructure.EventBusServiceBus.csproj", "{FB8D2449-A24D-4C18-9B35-61A2856E23DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPas.Infrastructure.EventBusServiceBus", "iPas.Infrastructure.EventBusServiceBus\iPas.Infrastructure.EventBusServiceBus.csproj", "{FB8D2449-A24D-4C18-9B35-61A2856E23DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iPas.Infrastructure.IntegrationEventLogEF", "iPas.Infrastructure.IntegrationEventLogEF\iPas.Infrastructure.IntegrationEventLogEF.csproj", "{8C23093E-2362-4493-A6BF-21ED39FC17D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iPas.Infrastructure.IntegrationEventLogEF", "iPas.Infrastructure.IntegrationEventLogEF\iPas.Infrastructure.IntegrationEventLogEF.csproj", "{8C23093E-2362-4493-A6BF-21ED39FC17D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientSearchService.Data", "PatientSearchService.Data\PatientSearchService.Data.csproj", "{0D33274F-3611-46E4-A8C1-244A3EC0D06A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatientSearchService.Data", "PatientSearchService.Data\PatientSearchService.Data.csproj", "{0D33274F-3611-46E4-A8C1-244A3EC0D06A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

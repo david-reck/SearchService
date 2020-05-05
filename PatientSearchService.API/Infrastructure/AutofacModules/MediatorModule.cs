@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using MediatR;
+using PatientSearchService.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,12 +17,16 @@ namespace PatientSearchService.API
                 .AsImplementedInterfaces();
 
             // Register all the Command classes (they implement IRequestHandler) in assembly holding the Commands
-            //builder.RegisterAssemblyTypes(typeof(RegistrationCommand).GetTypeInfo().Assembly)
-            //    .AsClosedTypesOf(typeof(IRequestHandler<,>));
+           
+            builder.RegisterAssemblyTypes(typeof(SearchPatientDetailsQuery).GetTypeInfo().Assembly)
+                .AsClosedTypesOf(typeof(IRequestHandler<,>));
 
-            //builder
-            //    .RegisterAssemblyTypes(typeof(RegistrationWithMessageCommand).GetTypeInfo().Assembly)
-            //    .AsClosedTypesOf(typeof(INotificationHandler<>));
+            builder.RegisterAssemblyTypes(typeof(SearchPatientQueryHandler).GetTypeInfo().Assembly)
+                .AsClosedTypesOf(typeof(IRequestHandler<,>));
+
+            builder
+                .RegisterAssemblyTypes(typeof(CreateUpdatePatientDetailsInESCommand).GetTypeInfo().Assembly)
+                .AsClosedTypesOf(typeof(INotificationHandler<>));
 
 
 

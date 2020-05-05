@@ -96,7 +96,7 @@ namespace PatientSearchService.API
         }
         private static (int httpPort, int grpcPort) GetDefinedPorts(IConfiguration config)
         {
-            var grpcPort = config.GetValue("GRPC_PORT", 5022);
+            var grpcPort = config.GetValue("GRPC_PORT", 5023);
             var port = config.GetValue("PORT", 81);
             return (port, grpcPort);
         }

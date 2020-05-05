@@ -10,14 +10,3 @@ D:\PelitasPOC\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\obj\De
 D:\PelitasPOC\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\obj\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.csproj.CopyComplete
 D:\PelitasPOC\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\obj\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.dll
 D:\PelitasPOC\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\obj\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.pdb
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\bin\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.deps.json
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\bin\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.dll
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\bin\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.pdb
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\bin\Debug\netcoreapp3.1\iPas.Infrastructure.EventBus.dll
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\bin\Debug\netcoreapp3.1\iPas.Infrastructure.EventBus.pdb
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\obj\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.csprojAssemblyReference.cache
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\obj\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.AssemblyInfoInputs.cache
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\obj\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.AssemblyInfo.cs
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\obj\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.csproj.CopyComplete
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\obj\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.dll
-C:\Users\dreck\Desktop\PatientSearchService\iPas.Infrastructure.EventBusServiceBus\obj\Debug\netcoreapp3.1\iPas.Infrastructure.EventBusServiceBus.pdb

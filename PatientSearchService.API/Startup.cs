@@ -40,7 +40,7 @@ namespace PatientSearchService.API
             container.Populate(services);
 
             container.RegisterModule(new MediatorModule());
-            container.RegisterModule(new ApplicationModule());
+            container.RegisterModule(new ApplicationModule(Configuration.GetValue<string>("RegistrationServiceEndPoint:RegistrationServiceURL")));
             container.RegisterModule(new ElasticSearchModule(Configuration.GetConnectionString("ElasticSearchConnection"), "patientdetails"));
 
             return new AutofacServiceProvider(container.Build());

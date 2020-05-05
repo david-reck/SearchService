@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1/SearchService.cs \
+obj\Debug\netcoreapp3.1/SearchServiceGrpc.cs: Proto/SearchService.proto

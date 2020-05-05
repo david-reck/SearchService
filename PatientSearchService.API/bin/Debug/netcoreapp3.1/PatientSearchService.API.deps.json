@@ -28,6 +28,7 @@
           "Autofac.Extensions.DependencyInjection": "6.0.0",
           "Grpc.AspNetCore": "2.28.0",
           "Grpc.AspNetCore.Server": "2.28.0",
+          "Grpc.Net.Client": "2.28.0",
           "MediatR": "8.0.1",
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
@@ -3055,20 +3056,6 @@
       "System.Security.Cryptography.Pkcs/4.5.0": {
         "dependencies": {
           "System.Security.Cryptography.Cng": "4.5.0"
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {
-            "assemblyVersion": "4.0.3.0",
-            "fileVersion": "4.6.26515.6"
-          }
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {
-            "rid": "win",
-            "assetType": "runtime",
-            "assemblyVersion": "4.0.3.0",
-            "fileVersion": "4.6.26515.6"
-          }
         }
       },
       "System.Security.Cryptography.Primitives/4.3.0": {
@@ -3332,7 +3319,8 @@
       },
       "PatientSearchService.Data/1.0.0": {
         "dependencies": {
-          "MediatR": "8.0.1"
+          "MediatR": "8.0.1",
+          "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "PatientSearchService.Data.dll": {}
